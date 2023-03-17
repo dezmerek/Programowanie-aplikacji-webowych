@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    margin: 5rem;
+}
+
+.component {
+    background-color: #FFFFFF;
+    display: flex;
+    width: 22rem;
+    height: 3rem;
+    border-radius: 0.2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(190, 190, 190, 0.68);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(190, 190, 190, 0.68);
+    box-shadow: 0px 0px 8px 3px rgba(190, 190, 190, 0.68);
+}
+
+.component:first-child {
+    margin-right: 5rem;
+}
+
+.component__left {
+    display: flex;
+}
+
+.img-coin {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.3rem;
+    padding-left: 1rem;
+}
+
+.amount-left {
+    color: #4AD991;
+}
+
+.amount-right {
+    color: #a4a1fb;
+}
+
+.text {
+    font-size: 0.8rem;
+}
+
+.component__dot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #A4AFB7;
+    margin: 0 1px;
+}
